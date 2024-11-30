@@ -2,13 +2,10 @@ import Container from "./Container";
 
 const Footer = () => {
   return (
-    <footer>
-      <Container className="flex justify-between gap-4">
-        <p className="text-sm">
-          Invoicipedia &copy; {new Date().getFullYear()}
-        </p>
-        <p className="text-sm">
-          Created By Zy with Next.js, TailwindCSS, and ...
+    <footer className="pb-4">
+      <Container className="flex justify-end">
+        <p className="text-sm mx-12 text-gray-400">
+          Created By Zy with Next.js v15 &copy; 2024
         </p>
       </Container>
     </footer>

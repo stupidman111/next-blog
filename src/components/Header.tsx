@@ -6,7 +6,7 @@ const navs = ["关于我", "文章", "项目", "更多"];
 
 function Header() {
   return (
-    <header className="mt-8 mb-12">
+    <header className="mt-8 mb-12 sticky top-0">
       <Container>
         <div className="flex gap-4">
           <div className="flex-1"></div>

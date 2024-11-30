@@ -1,9 +1,12 @@
 import Container from "@/components/Container";
+import Main from "@/components/Main";
 
 const Page = () => {
   return (
     <Container>
-      <div className="h-screen"></div>
+      <div className="m-12 h-screen flex justify-between">
+        <Main />
+      </div>
     </Container>
   );
 };
