@@ -4,7 +4,7 @@ import Main from "@/components/Main";
 const Page = () => {
   return (
     <Container>
-      <div className="m-12 h-screen flex justify-between">
+      <div className="m-12 flex justify-between">
         <Main />
       </div>
     </Container>

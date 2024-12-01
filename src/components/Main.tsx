@@ -35,7 +35,7 @@ const Main = () => {
           <TikTokIcon className="size-6" />
         </a>
       </div>
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-1 md:grid-cols-2 ">
         <div className="h-44 flex justify-center items-center ">
           TODO: personal description
         </div>
@@ -44,8 +44,8 @@ const Main = () => {
         </div>
       </div>
       <section className="w-full">
-        <div className="text-4xl">latest:</div>
-        <div className="grid grid-cols-2 gap-4 m-4">
+        <div className="text-4xl m-4">latest:</div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 m-4">
           <Card />
           <Card />
           <Card />
